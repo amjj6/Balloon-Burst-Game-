@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Ensure the body and html fill the entire page */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;  /* Prevents the canvas from overflowing */
+}
+
+/* Phaser canvas should take up the full screen */
+canvas {
+  display: block;  /* Removes any default spacing around the canvas */
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* body{
+  background-image: url("/ballon/public/Graphic/background.png");
+  background-size: cover;
+} */
+
+/* canvas {
+  display: block; Ensure the canvas takes up space */
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure the canvas is above other elements */
+
+
+main img {
+  z-index: 2; /* Ensure pump image stays on top */
+}
